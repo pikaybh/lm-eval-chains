@@ -1,0 +1,11 @@
+.env
+**.env
+
+*.ps1
+
+**__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+**logs
