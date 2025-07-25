@@ -3,7 +3,7 @@ from app.utils import get_prompt
 
 
 
-class KorrectnessEvaluator:
+class Korrectness:
     def __init__(self, core_model):
         self.prompt_template = get_prompt("korrectness")
         self.core_model = core_model.with_structured_output(EvaluationOutput)
@@ -19,4 +19,4 @@ class KorrectnessEvaluator:
 
 
 
-__all__ = ["KorrectnessEvaluator"]
+__all__ = ["Korrectness"]
