@@ -4,7 +4,7 @@ from langchain_core.runnables import RunnableLambda
 from langchain_openai import ChatOpenAI
 from langserve import RemoteRunnable
 
-from evaluators import PiRatingEvaluator
+from app.evaluators import PiRatingEvaluator
 
 
 load_dotenv()

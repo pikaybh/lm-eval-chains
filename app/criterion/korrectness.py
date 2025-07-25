@@ -1,5 +1,5 @@
-from schemas import EvaluationOutput
-from utils import get_prompt
+from app.schemas import EvaluationOutput
+from app.utils import get_prompt
 
 
 

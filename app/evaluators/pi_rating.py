@@ -1,6 +1,6 @@
 from langsmith import evaluate, Client
 
-from criterion import ExactMatch, Korrectness
+from app.criterion import ExactMatch, Korrectness
 
 
 
